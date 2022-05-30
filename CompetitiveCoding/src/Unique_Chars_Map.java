@@ -12,10 +12,10 @@ public class Unique_Chars_Map {
 				my_map.put(c, 1);
 			}
 		}
-		int a = 2;
+//		int a = 2;
 		for (Map.Entry<Character, Integer> entry : my_map.entrySet()) {
 
-			if ((int) entry.getValue() >= a) {
+			if ((int) entry.getValue() >= 2) {
 				continue;
 
 			}

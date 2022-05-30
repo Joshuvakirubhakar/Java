@@ -4,11 +4,11 @@ public class permutations_of_a_String {
 	static String g = "";
 
 	static void permutation(String s, String a) {
-		String ss = " ";
+		//String ss = " ";
 		if (s.length() == 0) {
 			System.out.print(a + " ");
 
-			g += ss + a;                        ///copying the permutation to the string
+			g +=" " + a;                        ///copying the permutation to the string
 
 		} else {
 
