@@ -8,7 +8,7 @@ public class InsetintoJDBC {
 	public static void main(String[] args) throws SQLException {
 		String URL = "jdbc:mysql://localhost:3306/mydb";
 		String uname = "root";
-		String PASSWORD = "Joshua99@";
+		String PASSWORD = "";
 		String query = "select distinct * from students ";
 
 //			   try {
